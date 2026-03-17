@@ -33,5 +33,8 @@ function getCreatureDescription(card) {
     if (names.includes('Dog')) {
         return 'Собака';
     }
+    if (names.includes('Gatling')) {
+        return 'Гатлинг';
+    }
     return 'Существо';
 }

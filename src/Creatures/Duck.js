@@ -2,9 +2,11 @@
 
 export default class Duck extends Creature {
     constructor() {
+        //super('Мирная утка', 2);
         super();
         this.name = 'Мирная утка';
         this.currentPower = 2;
+        this.maxPower = 2;
     }
 
     quacks() {
