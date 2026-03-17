@@ -37,7 +37,7 @@ function getInheritancesDescription (card) {
 
 function getCreatureDescription(card) {
     const names = getInheritancesDescription(card)
-    if (names.includes('Duck') && names.includes('Dog')) {
+    if (names.includes('Duck') && names.includes('Dog') || names.includes('PseudoDuck')) {
         return 'Утка-Собака';
     }
     if (names.includes('Duck')) {
