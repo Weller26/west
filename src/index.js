@@ -4,6 +4,7 @@ import TaskQueue from './TaskQueue.js';
 import SpeedRate from './SpeedRate.js';
 import Duck from './Creatures/Duck.js';
 import Dog from './Creatures/Dog.js';
+import Gatling from './Creatures/Gatling.js';
 
 // Отвечает является ли карта уткой.
 function isDuck(card) {
@@ -17,14 +18,17 @@ function isDog(card) {
 
 // Колода Шерифа, нижнего игрока.
 const seriffStartDeck = [
+    new Gatling(),
     new Duck(),
     new Duck(),
-    new Duck(),
+    new Duck()
 ];
 
 // Колода Бандита, верхнего игрока.
 const banditStartDeck = [
     new Dog(),
+    new Dog(),
+    new Dog()
 ];
 
 
