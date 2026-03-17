@@ -15,7 +15,6 @@ export default class Trasher extends Dog {
     getDescriptions(card) {
         const arr = super.getDescriptions(card);
         arr.push('\n Если Громилу атакуют, то он получает на 1 меньше урона')
-
         return arr
     }
 }
