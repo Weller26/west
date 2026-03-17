@@ -5,7 +5,7 @@ export default class Dog extends Creature {
         //super('Пес-бандит', 3);
         super();
         this.name = 'Пес-бандит';
-        this.currentPower = 4;
-        this.maxPower = 10;
+        this.currentPower = 3;
+        this.maxPower = 3;
     }
 }
